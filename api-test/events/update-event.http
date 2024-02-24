@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/1
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsQGVtYWlsLmNvbSIsImV4cCI6MTcwODY0ODkzNCwidXNlcklkIjoxfQ.aHBSR82_tpX61Z3kB9U_ej0SdzU1x1vSQxIQr7uIv3M
+
+{
+  "name": "Aniversário Atualizado",
+  "description": "Celebração do aniversário de alguém",
+  "location": "Local da festa",
+  "datetime": "2024-02-16T15:30:00Z"
+}
